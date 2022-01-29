@@ -1,16 +1,42 @@
-{
-    "workflow": [
-      {
-        "id": 1,
-        "title": "hello",
-        "forms": {
-            "name":"Password",
-            "title":"User Credentials"
-        }
-      }
-    ],
-    "formTemplate": [{
-      "name": "typicode",
-      "htmlTemplate":""
+{"workflow": [{
+    "workflowName": "",
+    "requestedBy":"",
+    "dueDate":"",
+    "input": 
+      {"inputType":"",
+       "formTemplate":{
+          "formId":"",
+          "formTitle":"",
+          "formURL":"",
+          "dataSource":"",
+          "formResponseSchema":{},
+          "elements":{
+             "elementName":"",
+             "elementOrder":"",
+             "elementType":"input",
+             "elementAttributes":{
+                 "id":"",
+                 "name":"",
+                 "class":"",
+                 "required":"",
+                 "validation":""
+                 }
+                 }
+       }
+      },
+       "Notes":"",
+       "dueDate":"",
+       "assignmentGroup":"",
+       "assignedTo":"",
+       "status":""    
+    }],
+"formTemplates":[{
+    "title":"User Account Creation",
+    "elements":[{
+        "SortOrder":"0",
+        "name":"element name"
     }]
-  }
+}]
+}
+
+
