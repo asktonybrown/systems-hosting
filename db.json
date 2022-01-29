@@ -4,12 +4,13 @@
         "id": 1,
         "title": "hello",
         "forms": {
-            "formName":"Password",
+            "name":"Password",
             "title":"User Credentials"
         }
       }
     ],
-    "profile": {
-      "name": "typicode"
-    }
+    "formTemplate": [{
+      "name": "typicode",
+      "htmlTemplate":""
+    }]
   }
